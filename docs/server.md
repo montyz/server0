@@ -5,6 +5,7 @@
 - kept bios, uefi made grub come up
 
 # Install openssh-server
+
 - guide <https://help.ubuntu.com/community/SSH/OpenSSH/Configuring>
 
 ```bash
