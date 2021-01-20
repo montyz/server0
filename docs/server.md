@@ -19,3 +19,13 @@ sudo apt install openssh-server
 - set up key with my solokey `ssh-keygen -t ecdsa-sk -C $(date +'%d-%m-%Y')-solo-red`
 - copied pub key to `~/.ssh/authorized-keys`
 - restarted sshd `sudo systemctl restart ssh`
+
+## Set up ansible
+
+- use existing user with sudo
+- followed instructions at <https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu>
+- sample `hosts` and `ansible.cfg` files available at <https://github.com/ansible/ansible/tree/devel/examples>
+
+## to do
+
+- look into dns
