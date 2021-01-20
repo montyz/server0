@@ -1,10 +1,12 @@
-# Install ubuntu 20.4 LTS
+# Initial setup of server
+
+## Install ubuntu 20.4 LTS
 
 - manual <https://downloads.dell.com/manuals/all-products/esuprt_ser_stor_net/esuprt_poweredge/poweredge-t110-2_owner%27s%20manual_en-us.pdf>
 - had to enable usb ports and ethernet from system setup
 - kept bios, uefi made grub come up
 
-# Install openssh-server
+## Install openssh-server
 
 - guide <https://help.ubuntu.com/community/SSH/OpenSSH/Configuring>
 
